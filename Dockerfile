@@ -9,4 +9,4 @@ RUN unzip photogenic.zip
 RUN cp -rvf phptpgenic/* .
 RUN rm -rf photogenic photogenic.zip
 CMD ["/usr/bin/httpd","-D","FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
